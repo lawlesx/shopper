@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "name": "Suit 1",
+      "image": "/Suit.jpeg",
+      "price": "$100",
+      "rating": "4/5"
+    },
+    {
+      "id": 2,
+      "name": "Suit 2",
+      "image": "/Suit.jpeg",
+      "price": "$100",
+      "rating": "4.5/5"
+    },
+    {
+      "id": 3,
+      "name": "Suit and Tie",
+      "image": "/Suit.jpeg",
+      "price": "$100",
+      "rating": "4/5"
+    },
+    {
+      "id": 4,
+      "name": "Suit and Tie",
+      "image": "/Suit.jpeg",
+      "price": "$100",
+      "rating": "4.5/5"
+    },
+    {
+      "id": 5,
+      "name": "Suit and Tie",
+      "image": "/Suit.jpeg",
+      "price": "$100",
+      "rating": "4.2/5"
+    }
+    
+  ]
+}

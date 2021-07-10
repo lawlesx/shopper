@@ -1,0 +1,36 @@
+.container {
+  height: 33rem;
+  width: 25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.cardTop {
+  height: 25rem;
+  width: 22rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background: #D3D3D3;
+  box-shadow: inset -4px -4px 7px rgba(255, 255, 255, 0.25), inset 4px 4px 7px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+.cardBot {
+  height: 4rem;
+  width: 22rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #D3D3D3;
+  box-shadow: inset -4px -4px 7px rgba(255, 255, 255, 0.25), inset 4px 4px 7px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+
+.image {
+  width: 50px;
+  height: 50px;
+}
