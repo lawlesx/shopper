@@ -22,7 +22,7 @@
   justify-content: space-around;
   align-items: center;
   border: none;
-  
+  outline: none;
 }
 
 .container input[type=text]{

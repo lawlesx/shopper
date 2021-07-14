@@ -19,7 +19,7 @@ const Header = () => {
       <h1>Shoppers</h1>
       <div >
       <form onSubmit={handleSubmit}>
-          <input className={styles.searchbar} placeholder="Search..." type="text" value={value} onChange={handleChange} />
+          <input className={styles.searchbar} placeholder="Search... What you want" type="text" value={value} onChange={handleChange} />
       </form>
       </div>
       {/* <div>

@@ -2,7 +2,7 @@
   "items": [
     {
       "id": 1,
-      "name": "Suit 1",
+      "name": "My Suit",
       "image": "/Suit.jpeg",
       "price": "$100",
       "rating": "4/5"
