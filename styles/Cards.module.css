@@ -57,6 +57,7 @@
   place-items: center;
   position: relative;
   border: none;
+  cursor: pointer;
 }
 
 .remove {

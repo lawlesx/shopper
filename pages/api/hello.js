@@ -7,8 +7,10 @@ const connection = mysql.createConnection({
   password: 'root',
   database: 'sailors'
 });
-
+console.log("Outside handler")
 export default function handler(req, res) {
+  console.log("Hello");
+  console.log(req.query.id);
   connection.query(
     'SELECT * FROM boats',
     function(err, results, fields) {

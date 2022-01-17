@@ -10,22 +10,10 @@ import Tie from '../public/Tie.jpg';
 import Suit2 from '../public/Suit 2-Piece.jpg';
 import Suit3 from '../public/Suit 3-Piece.jpg';
 import Half from '../public/Half Sleves.jpg';
-import { useState } from 'react';
 
 const images = [Tshirt,Shirts,Shorts,Jeans,Joggers,Half,Suit2,Suit3,Blazer,Tie];
 
-const Cards = ({ pid, name, price , setItems }) => {
-
-  const [qty, setQty] = useState(0);
-
-  const handleAdd = () => {
-    setQty(prev => prev+1);
-    setItems({name,price,qty: qty+1})
-  }
-  const handleRemove = () => {
-    setQty(prev => prev-1);
-    setItems({name,price,qty: qty-1})
-  }
+const Cards = ({ pid, name, price , qty}) => {
   
 
   return ( 
@@ -40,14 +28,7 @@ const Cards = ({ pid, name, price , setItems }) => {
         </div>
       </div>
       <div className={styles.cardBot}>
-        <button onClick={() => handleRemove()} className={styles.box}>
-          <div className={styles.remove}></div>
-        </button>
-        <h1>{qty == 0 ? 'Add to cart' : qty}</h1>
-        <button onClick={() => handleAdd()} className={styles.box}>
-          <div className={styles.add}></div>
-          <div className={styles.addv}></div>
-        </button>
+        <h1>{qty}</h1>
       </div>
     </div>
    );

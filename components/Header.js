@@ -3,12 +3,12 @@ import styles from '../styles/Header.module.css';
 
 const Header = () => {
 
-  const [value, setValue] = useState('');
+  // const [value, setValue] = useState('');
 
-  function handleSubmit(event) {
-    console.log(value)
-    event.preventDefault();
-  }
+  // function handleSubmit(event) {
+  //   console.log('Search value:',value)
+  //   event.preventDefault();
+  // }
 
   function handleChange(event) {
     setValue(event.target.value);
@@ -18,9 +18,9 @@ const Header = () => {
     <div className={styles.container}>
       <h1>Shoppers</h1>
       <div >
-      <form onSubmit={handleSubmit}>
+      {/* <form onSubmit={handleSubmit}>
           <input className={styles.searchbar} placeholder="Search... What you want" type="text" value={value} onChange={handleChange} />
-      </form>
+      </form> */}
       </div>
       {/* <div>
         <svg width="61" height="59" viewBox="0 0 61 59" fill="none" xmlns="http://www.w3.org/2000/svg">
